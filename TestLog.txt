@@ -1,0 +1,160 @@
+[1529918803.366][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1529918803.371][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1529918803.377][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1529918803.475][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1529918803.475][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Windows\TEMP\scoped_dir6684_14530\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12781 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Windows\TEMP\scoped_dir6684_27544" data:,
+[1529918804.734][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1529918814.109][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)",
+      "userDataDir": "C:\\Windows\\TEMP\\scoped_dir6684_27544"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1529918814.129][INFO]: COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1529918814.132][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1529918815.271][INFO]: RESPONSE MaximizeWindow
+[1529918815.276][INFO]: COMMAND DeleteAllCookies {
+
+}
+[1529918815.296][INFO]: Waiting for pending navigations...
+[1529918815.577][INFO]: Done waiting for pending navigations. Status: ok
+[1529918815.654][INFO]: Waiting for pending navigations...
+[1529918815.689][INFO]: Done waiting for pending navigations. Status: ok
+[1529918815.689][INFO]: RESPONSE DeleteAllCookies
+[1529918815.694][INFO]: COMMAND SetTimeout {
+   "ms": 20000,
+   "type": "page load"
+}
+[1529918815.694][INFO]: RESPONSE SetTimeout
+[1529918815.704][INFO]: COMMAND SetTimeout {
+   "ms": 20000,
+   "type": "implicit"
+}
+[1529918815.704][INFO]: RESPONSE SetTimeout
+[1529918815.712][INFO]: COMMAND Navigate {
+   "url": "https://www.freecrm.com"
+}
+[1529918815.712][INFO]: Waiting for pending navigations...
+[1529918815.715][INFO]: Done waiting for pending navigations. Status: ok
+[1529918817.905][INFO]: Waiting for pending navigations...
+[1529918823.442][INFO]: Done waiting for pending navigations. Status: ok
+[1529918823.442][INFO]: RESPONSE Navigate
+[1529918823.468][INFO]: COMMAND GetTitle {
+
+}
+[1529918823.468][INFO]: Waiting for pending navigations...
+[1529918823.535][INFO]: Done waiting for pending navigations. Status: ok
+[1529918823.556][INFO]: Waiting for pending navigations...
+[1529918823.559][INFO]: Done waiting for pending navigations. Status: ok
+[1529918823.559][INFO]: RESPONSE GetTitle "Free CRM software in the cloud powers sales and customer service"
+[1529918823.582][INFO]: COMMAND Quit {
+
+}
+[1529918824.106][INFO]: RESPONSE Quit
